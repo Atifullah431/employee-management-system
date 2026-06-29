@@ -1,12 +1,11 @@
-import React from "react";
-import Employee from "./Components/Employee";
+import Todo from './Components/Todo'
 
 const App = () => {
   return (
     <div>
-    <Employee/>
+      <Todo/>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
